@@ -17,26 +17,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Fahrenheit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k6b-mj-Izw">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Fahrenheit" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k6b-mj-Izw">
                                 <rect key="frame" x="39" y="120" width="296" height="43"/>
                                 <gestureRecognizers/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" red="0.88235294117647056" green="0.34509803921568627" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="is really" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GTp-g3-dVV">
-                                <rect key="frame" x="130" y="171" width="114" height="43"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="is really" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GTp-g3-dVV">
+                                <rect key="frame" x="131" y="171" width="114" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" autoshrinkMode="minimumScaleFactor" translatesAutoresizingMaskIntoConstraints="NO" id="vEs-7a-3fO">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" autoshrinkMode="minimumScaleFactor" translatesAutoresizingMaskIntoConstraints="NO" id="vEs-7a-3fO">
                                 <rect key="frame" x="129.5" y="222" width="116.5" height="84"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                 <color key="textColor" red="0.88235294117647056" green="0.34509803921568627" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Celsius" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W8F-hU-O7W">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Celsius" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W8F-hU-O7W">
                                 <rect key="frame" x="64" y="314" width="246" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" red="0.88235294117647056" green="0.34509803921568627" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -57,17 +57,27 @@
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="k6b-mj-Izw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8NK-MZ-Cm7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="GTp-g3-dVV" secondAttribute="trailing" id="9qd-bN-Hf6"/>
+                            <constraint firstItem="k6b-mj-Izw" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="CEW-9y-sNw"/>
                             <constraint firstItem="zPa-2j-pj5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="Ibj-At-VXg"/>
+                            <constraint firstItem="vEs-7a-3fO" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Jbd-Zd-Phq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="k6b-mj-Izw" secondAttribute="trailing" id="JrW-JP-yKS"/>
                             <constraint firstItem="GTp-g3-dVV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LBZ-E5-HZY"/>
                             <constraint firstItem="W8F-hU-O7W" firstAttribute="top" secondItem="vEs-7a-3fO" secondAttribute="bottom" constant="8" id="QkC-g6-XNP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="W8F-hU-O7W" secondAttribute="trailing" id="Ruk-Ix-zLK"/>
                             <constraint firstItem="W8F-hU-O7W" firstAttribute="centerX" secondItem="k6b-mj-Izw" secondAttribute="centerX" id="W5O-Ur-xZB"/>
                             <constraint firstItem="zPa-2j-pj5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XSQ-hp-UB5"/>
+                            <constraint firstItem="GTp-g3-dVV" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="aNM-u7-jy8"/>
                             <constraint firstItem="vEs-7a-3fO" firstAttribute="top" secondItem="GTp-g3-dVV" secondAttribute="bottom" constant="8" id="c0r-ZN-9fv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="vEs-7a-3fO" secondAttribute="trailing" id="eac-qT-NPH"/>
                             <constraint firstItem="GTp-g3-dVV" firstAttribute="top" secondItem="k6b-mj-Izw" secondAttribute="bottom" constant="8" id="jka-Bd-ug0"/>
                             <constraint firstItem="GTp-g3-dVV" firstAttribute="centerX" secondItem="k6b-mj-Izw" secondAttribute="centerX" id="kbi-9j-S0q"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="zPa-2j-pj5" secondAttribute="trailing" id="lTE-r7-Ewu"/>
+                            <constraint firstItem="W8F-hU-O7W" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="mNC-Hh-nYC"/>
                             <constraint firstItem="vEs-7a-3fO" firstAttribute="centerX" secondItem="k6b-mj-Izw" secondAttribute="centerX" id="pEy-t6-cUB"/>
                             <constraint firstItem="k6b-mj-Izw" firstAttribute="top" secondItem="zPa-2j-pj5" secondAttribute="bottom" constant="8" id="tz1-5O-u4W"/>
                             <constraint firstItem="vEs-7a-3fO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yUo-Sq-r3P"/>
+                            <constraint firstItem="zPa-2j-pj5" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="yhA-Zx-chr"/>
                             <constraint firstItem="W8F-hU-O7W" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zJs-xU-MtB"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -94,10 +104,6 @@
         <scene sceneID="ykW-Xl-xLC">
             <objects>
                 <viewController id="uKi-5R-wh2" customClass="MapViewController" customModule="WorldTrotter" customModuleProvider="target" sceneMemberID="viewController">
-                    <mapView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="7BW-zb-yZs">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    </mapView>
                     <tabBarItem key="tabBarItem" title="Map" image="MapIcon" id="VzP-zB-78A"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dfA-5y-QsP" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -110,6 +116,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="rX3-bs-tb5" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="do0-DH-8uR">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
